@@ -6,6 +6,7 @@ local keys = {  -- Add as many key
     "gdCFojOxPancNZmUDNFzlPpyRSISJegM",
     "HszFBlhvvuursEWSLtMlkAbFETyOxRIT",
 }
+
 script_key = keys[math.random(#keys)];
 setfpscap(3)
 getgenv().gagConfig = {
