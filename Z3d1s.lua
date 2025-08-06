@@ -57,6 +57,7 @@ getgenv().ConfigsKaitun = {
 		},
 		Shop = {
 			"Zen Egg",
+			"Koi",
 		},
 		Start_Do_Honey = 1_000_000 -- start trade fruit for honey at money
 	},
@@ -81,8 +82,8 @@ getgenv().ConfigsKaitun = {
 	Eggs = {
 		Place = {
 			"Gourmet Egg",
-			"Mythical Egg",
 			"Zen Egg",
+			"Mythical Egg",
 			"Anti Bee Egg",
 			"Bug Egg",
 			"Paradise Egg",
@@ -102,7 +103,7 @@ getgenv().ConfigsKaitun = {
 	},
 
 	Pets = {
-		["Start Delete Pet At"] = 50,
+		["Start Delete Pet At"] = 30,
 		["Upgrade Slot"] = {
 			["Pet"] = {
 				["Starfish"] = { 7, 100, 1, true },
@@ -110,8 +111,8 @@ getgenv().ConfigsKaitun = {
 			},
 			["Limit Upgrade"] = 8,
 			["Equip When Done"] = {
-				["Seal"] = { 5, 100, 1 },
-				["Giant Ant"] = { 3, 100, 2 },
+				["Seal"] = { 3, 100, 1 },
+				["Koi"] = { 5, 100, 1 },
 
 			},
 		},
@@ -141,6 +142,7 @@ getgenv().ConfigsKaitun = {
 			"Mimic Octopus",
 			"Red Fox",
 			"Blood Owl",
+			["Koi"] = 5,
 			["Giant Ant"] = 4,
 			["Seal"] = 4,
 			["Starfish"] = 10,
