@@ -15,6 +15,7 @@ getgenv().gagConfig = {
     CRAFT_EVENT = { "Anti Bee Egg" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     CLAIM_FOOD_CONNOISSEUR_REWARD = { "Culinarian Chest", "Gorilla Chef", "Gourmet Egg", "Sunny-Side Chicken", "Pet Shard Aromatic" },
+    PLACE_COSMETIC = {"Cooking Cauldron"},
     FORCE_COOK_MUTATION_ONLY = true,
     AUTO_UPDATE_RESTART = true,
     REDEEM_CODES = {},
@@ -41,7 +42,7 @@ getgenv().gagConfig = {
     KEEP_PETS = { "Corrupted Kitsune", "Kitsune", "Lobster Thermidor" , ["Sushi Bear"] = 2 , "Bald Eagle", ["Gorilla Chef"] = 4 , ["Koi"] = 2 , ["Sunny-Side Chicken"] = 3 , "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", ["Seal"] = 2, "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "French Fry Ferret","Chicken Zombie", ["Kodama"] = 6, ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 1, ["Starfish"] = 2, ["Chicken"] = 2, ["Rooster"] = 2,  },
     KEEP_PETS_WEIGHT = { ["Red Giant Ant"] = 5 },
     KEEP_PETS_AGE = { ["Starfish"] = 75 },
-   EQUIP_PETS = { ["Starfish"] = 1 ,["Koi"] = 2 , ["Seal"] = 1 , ["Gorilla Chef"] = 3 , ["Sunny-Side Chicken"] = 1 }, 
+   EQUIP_PETS = { ["Starfish"] = 1 ,["Koi"] = 1 , ["Seal"] = 1 , ["Gorilla Chef"] = 4 , ["Sunny-Side Chicken"] = 1 }, 
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },  -- Unequip from garden
     BUY_GEAR_SHOP = { "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket" },
