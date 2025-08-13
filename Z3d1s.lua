@@ -14,9 +14,8 @@ getgenv().gagConfig = {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-     CLAIM_FOOD_CONNOISSEUR_REWARD = { "Culinarian Chest", "Gorilla Chef", "Gourmet Egg", "Cooking Cauldron", "Pet Shard Aromatic", "Sunny-Side Chicken", "Gourmet Seed Pack", "Bitter Melon Seed", "Pricklefruit Seed", "Butternut Squash Seed", "Spring Onion Seed", "Kitchen Crate", "Kitchen Flooring", "Kitchen Cart", "Smoothie Fountain" },
+    CLAIM_FOOD_CONNOISSEUR_REWARD = { "Culinarian Chest", "Gorilla Chef", "Gourmet Egg", "Cooking Cauldron", "Pet Shard Aromatic", "Sunny-Side Chicken", "Gourmet Seed Pack", "Bitter Melon Seed", "Pricklefruit Seed", "Butternut Squash Seed", "Spring Onion Seed", "Kitchen Crate", "Kitchen Flooring", "Kitchen Cart", "Smoothie Fountain" },
     PLACE_COSMETIC = {"Cooking Cauldron", "Cooking Pot"},
-    FORCE_COOK_MUTATION_ONLY = true,
     AUTO_UPDATE_RESTART = true,
     REDEEM_CODES = {},
     EXTRA_PET_SLOTS = 8,
@@ -39,15 +38,15 @@ getgenv().gagConfig = {
 
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
-    KEEP_PETS = { "Corrupted Kitsune", "Kitsune", "Lobster Thermidor" , ["Sushi Bear"] = 2 , "Bald Eagle", ["Gorilla Chef"] = 4 , ["Koi"] = 2 , ["Sunny-Side Chicken"] = 2 , "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", ["Seal"] = 2, "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "French Fry Ferret","Chicken Zombie", ["Kodama"] = 6, ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 1, ["Starfish"] = 2, ["Chicken"] = 2, ["Rooster"] = 2,  },
-    KEEP_PETS_WEIGHT = { ["Red Giant Ant"] = 5 },
+    KEEP_PETS = { "Corrupted Kitsune", "Kitsune", "Lobster Thermidor" , ["Sushi Bear"] = 2 , "Bald Eagle", ["Gorilla Chef"] = 4 , ["Koi"] = 2 , ["Sunny-Side Chicken"] = 3 , "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", ["Seal"] = 2, "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "French Fry Ferret","Chicken Zombie", ["Kodama"] = 6, ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 1, ["Starfish"] = 2, ["Chicken"] = 2, ["Rooster"] = 2,  },
+    KEEP_PETS_WEIGHT = 6,
     KEEP_PETS_AGE = { ["Starfish"] = 75 },
    EQUIP_PETS = { ["Starfish"] = 1 ,["Koi"] = 1 , ["Seal"] = 2 , ["Gorilla Chef"] = 4 }, 
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },  -- Unequip from garden
     BUY_GEAR_SHOP = { "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket" },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler" },
-    PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1396127465646325892/eCZGDODwc0_hniar7CQEBAJ_fdHHCsq8BWfSwB-jLEciBKD1j4ZsSpONbtdHlnD6R8ax",
+    PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1353207342778286100/FHUUIvDA_M9hOlCQWbCEfuEpn-205SIPsFGz4Skcq51opht-VQ3IzRGcEORjR8ca4BV_",
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = { "Corrupted Kitsune", "Raiju", "Mizuchi", "Bald Eagle", "Koi", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Brontosaurus", "T-Rex", "Ankylosaurus", "Spinosaurus" },
     NOTIFY_PETS_WEIGHT = { ["Red Giant Ant"] = 5, ["Bear Bee"] = 5, ["Tanchozuru"] = 5 },
