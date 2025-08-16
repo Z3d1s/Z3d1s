@@ -38,7 +38,7 @@ getgenv().gagConfig = {
 
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
-    KEEP_PETS = { "Corrupted Kitsune", "Kitsune", "Lobster Thermidor" , ["Sushi Bear"] = 2 , "Bald Eagle", ["Gorilla Chef"] = 4 , ["Koi"] = 2 , [] = 1 , "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", ["Seal"] = 2, "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "French Fry Ferret","Chicken Zombie", ["Kodama"] = 6, ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 1, ["Starfish"] = 2, ["Chicken"] = 2, ["Rooster"] = 2,  },
+    KEEP_PETS = { "Corrupted Kitsune", "Kitsune", "Lobster Thermidor" , ["Sushi Bear"] = 2 , "Bald Eagle", ["Gorilla Chef"] = 4 , ["Koi"] = 2 , "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", ["Seal"] = 2, "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "French Fry Ferret","Chicken Zombie", ["Kodama"] = 6, ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 1, ["Starfish"] = 2, ["Chicken"] = 2, ["Rooster"] = 2,  },
     KEEP_PETS_WEIGHT = 6,
     KEEP_PETS_AGE = 75,
    EQUIP_PETS = { ["Koi"] = 2 , ["Seal"] = 2 , ["Gorilla Chef"] = 4 }, 
