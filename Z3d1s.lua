@@ -90,7 +90,8 @@ getgenv().ConfigsKaitun = {
 		["Traveling Shop"] = {
 			"Bee Egg",
 			"Common Summer Egg",
-   "Rare Summer Egg"
+   "Rare Summer Egg",
+			"Paradise Egg",
 		},
 		Craft = {
 			"Anti Bee Egg",
@@ -171,6 +172,7 @@ getgenv().ConfigsKaitun = {
 		Locked_Pet_Age = 60, -- pet that age > 60 will lock
 		Locked = {
 			"Griffin",
+			"Rooster",
 			"Golden Goose",
 			"Golem",
 			"French Fry Ferret",
